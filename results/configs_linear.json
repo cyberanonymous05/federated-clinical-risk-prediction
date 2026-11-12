@@ -1,0 +1,113 @@
+{
+ "T1": {
+  "fedavg": {
+   "bs": 32,
+   "epochs": 2,
+   "frac": 1.0,
+   "lr": 0.3,
+   "model": "linear"
+  },
+  "hierfavg": {
+   "bs": 32,
+   "epochs": 2,
+   "frac": 1.0,
+   "lr": 0.1,
+   "model": "linear",
+   "tau": 5
+  },
+  "hiperc": {
+   "bs": 32,
+   "epochs": 2,
+   "frac": 1.0,
+   "lam_c": 0.0,
+   "lam_p": 1.0,
+   "lr": 0.3,
+   "model": "linear",
+   "tau": 5
+  },
+  "hiperc_lamc0": {
+   "bs": 32,
+   "epochs": 2,
+   "frac": 1.0,
+   "lam_c": 0.0,
+   "lam_p": 1.0,
+   "lr": 0.3,
+   "model": "linear",
+   "tau": 5
+  }
+ },
+ "T2": {
+  "fedavg": {
+   "bs": 256,
+   "epochs": 2,
+   "frac": 0.5,
+   "lr": 0.3,
+   "model": "linear"
+  },
+  "hierfavg": {
+   "bs": 256,
+   "epochs": 2,
+   "frac": 0.5,
+   "lr": 0.3,
+   "model": "linear",
+   "tau": 5
+  },
+  "hiperc": {
+   "bs": 256,
+   "epochs": 2,
+   "frac": 0.5,
+   "lam_c": 3.0,
+   "lam_p": 0.1,
+   "lr": 0.3,
+   "model": "linear",
+   "tau": 5
+  },
+  "hiperc_lamc0": {
+   "bs": 256,
+   "epochs": 2,
+   "frac": 0.5,
+   "lam_c": 0.0,
+   "lam_p": 0.1,
+   "lr": 0.3,
+   "model": "linear",
+   "tau": 5
+  }
+ },
+ "T3": {
+  "fedavg": {
+   "bs": 256,
+   "epochs": 2,
+   "frac": 0.5,
+   "lr": 0.3,
+   "model": "linear"
+  },
+  "hierfavg": {
+   "bs": 256,
+   "epochs": 2,
+   "frac": 0.5,
+   "lr": 0.3,
+   "model": "linear",
+   "tau": 5
+  },
+  "hiperc": {
+   "bs": 256,
+   "epochs": 2,
+   "frac": 0.5,
+   "lam_c": 10.0,
+   "lam_p": 1.0,
+   "lr": 0.3,
+   "model": "linear",
+   "tau": 5
+  },
+  "hiperc_lamc0": {
+   "bs": 256,
+   "epochs": 2,
+   "frac": 0.5,
+   "lam_c": 0.0,
+   "lam_p": 1.0,
+   "lr": 0.3,
+   "model": "linear",
+   "tau": 5
+  }
+ }
+}

@@ -1,0 +1,5 @@
+{
+ "max_abs_score_difference_12_clients_vs_pooled": 0.0,
+ "train_auroc": 0.9427969220475074,
+ "max_abs_edge_difference_federated_vs_pooled_quantiles": 1.5716048933159221
+}

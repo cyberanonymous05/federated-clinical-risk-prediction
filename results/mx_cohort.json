@@ -1,0 +1,32 @@
+{
+ "rows_read": 19150685,
+ "eligible_adults": 6789895,
+ "eligible_by_period": {
+  "test": {
+   "n": 4351980,
+   "deaths": 86083
+  },
+  "train": {
+   "n": 2187352,
+   "deaths": 207991
+  },
+  "val": {
+   "n": 250563,
+   "deaths": 12601
+  }
+ },
+ "sample_by_period": {
+  "test": {
+   "n": 112698,
+   "deaths": 4282
+  },
+  "train": {
+   "n": 195098,
+   "deaths": 26323
+  },
+  "val": {
+   "n": 46324,
+   "deaths": 3741
+  }
+ }
+}

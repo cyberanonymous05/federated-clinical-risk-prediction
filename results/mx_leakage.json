@@ -1,0 +1,9 @@
+{
+ "all_with_hosp_and_unknown": 0.971,
+ "hosp_alone": 0.957,
+ "n_unknown_alone": 0.497,
+ "baseline_predictors": 0.87,
+ "age_sex": 0.85,
+ "mortality_hosp1": 0.426,
+ "mortality_hosp0": 0.012
+}

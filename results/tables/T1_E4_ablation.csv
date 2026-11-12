@@ -1,0 +1,6 @@
+Variant,spec,auroc,brier,ece,d_auroc_vs_full,p_wilcoxon,wan_MB
+HiPerC-FL,hiperc,0.894 ± 0.016,0.126 ± 0.010,0.069 ± 0.016,0.0,,5.4
+"HiPerC-FL, no invariance term (λ~c~ = 0)",hiperc_lamc0,0.895 ± 0.015,0.126 ± 0.011,0.066 ± 0.015,0.0004961020552799123,0.44404148776100694,5.4
+"HiPerC-FL, flat (τ = 1)",hiperc_flat,0.894 ± 0.017,0.127 ± 0.011,0.074 ± 0.013,-0.0007559650366170733,0.2872952784721625,27.0
+"HiPerC-FL, hospital model only",hiperc_hospital,0.896 ± 0.014,0.125 ± 0.010,0.067 ± 0.017,0.0013819985825655411,0.14290618896484375,5.4
+"HiPerC-FL, global model only",hiperc_global,0.874 ± 0.019,0.143 ± 0.013,0.082 ± 0.019,-0.020564611386723386,8.844915021211902e-05,5.4

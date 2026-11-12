@@ -1,0 +1,37 @@
+{
+ "fedavg": {
+  "bs": 64,
+  "epochs": 2,
+  "frac": 1.0,
+  "lr": 0.1,
+  "model": "linear"
+ },
+ "hierfavg": {
+  "bs": 64,
+  "epochs": 2,
+  "frac": 1.0,
+  "lr": 0.1,
+  "model": "linear",
+  "tau": 5
+ },
+ "hiperc": {
+  "bs": 64,
+  "epochs": 2,
+  "frac": 1.0,
+  "lam_c": 0.3,
+  "lam_p": 1.0,
+  "lr": 0.1,
+  "model": "linear",
+  "tau": 5
+ },
+ "hiperc_lamc0": {
+  "bs": 64,
+  "epochs": 2,
+  "frac": 1.0,
+  "lam_c": 0.0,
+  "lam_p": 1.0,
+  "lr": 0.1,
+  "model": "linear",
+  "tau": 5
+ }
+}

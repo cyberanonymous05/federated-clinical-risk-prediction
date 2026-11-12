@@ -1,0 +1,44 @@
+{
+ "T1": {
+  "bs": 32,
+  "epochs": 2,
+  "frac": 1.0,
+  "ft_epochs": 1,
+  "lr": 0.1
+ },
+ "T2": {
+  "bs": 256,
+  "epochs": 2,
+  "frac": 0.5,
+  "ft_epochs": 1,
+  "lr": 0.1
+ },
+ "T3": {
+  "bs": 256,
+  "epochs": 2,
+  "frac": 0.5,
+  "ft_epochs": 1,
+  "lr": 0.1
+ },
+ "T4": {
+  "bs": 64,
+  "epochs": 2,
+  "frac": 1.0,
+  "ft_epochs": 1,
+  "lr": 0.3
+ },
+ "T5": {
+  "bs": 128,
+  "epochs": 2,
+  "frac": 1.0,
+  "ft_epochs": 10,
+  "lr": 0.03
+ },
+ "T6": {
+  "bs": 128,
+  "epochs": 2,
+  "frac": 0.3,
+  "ft_epochs": 3,
+  "lr": 0.3
+ }
+}

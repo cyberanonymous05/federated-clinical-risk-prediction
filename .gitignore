@@ -1,0 +1,13 @@
+# data and large or generated files (see the download scripts)
+data/*
+!data/SHA256SUMS
+!data/NHANES_SHA256SUMS
+results/preds/
+results_smoke/
+build/node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+logs/
+*.zip
+*.docx

@@ -1,0 +1,326 @@
+{
+ "T1": {
+  "n_train": 550,
+  "n_val": 185,
+  "n_test": 185,
+  "n_features": 32,
+  "overlap_train_val_test": [
+   0,
+   0,
+   0
+  ],
+  "duplicate_indices_within_split": 0,
+  "continuous_columns": 8,
+  "train_mean_abs_max_continuous": 1.3871626514116997e-08,
+  "test_mean_abs_max_continuous": 0.10867656022310257,
+  "single_predictor_top3": [
+   [
+    "cp=4",
+    0.784
+   ],
+   [
+    "exang",
+    0.749
+   ],
+   [
+    "thalach",
+    0.725
+   ]
+  ],
+  "single_predictor_max_auroc": 0.784,
+  "flagged_above_0.85": [],
+  "perm_null_logreg_auroc": {
+   "mean": 0.5075,
+   "min": 0.2802,
+   "max": 0.7266,
+   "draws": 100
+  },
+  "real_logreg_auroc_numpy": 0.8854,
+  "perm_null_federated": {
+   "fedavg": {
+    "mean": 0.5391,
+    "min": 0.3956,
+    "max": 0.6451,
+    "draws": 8
+   },
+   "hiperc": {
+    "mean": 0.5214,
+    "min": 0.3738,
+    "max": 0.6067,
+    "draws": 8
+   }
+  },
+  "seconds": 3
+ },
+ "T2": {
+  "n_train": 177574,
+  "n_val": 38053,
+  "n_test": 38053,
+  "n_features": 21,
+  "overlap_train_val_test": [
+   0,
+   0,
+   0
+  ],
+  "duplicate_indices_within_split": 0,
+  "continuous_columns": 7,
+  "train_mean_abs_max_continuous": 4.399574393687544e-08,
+  "test_mean_abs_max_continuous": 0.00784137099981308,
+  "single_predictor_top3": [
+   [
+    "GenHlth",
+    0.728
+   ],
+   [
+    "BMI",
+    0.695
+   ],
+   [
+    "HighBP",
+    0.687
+   ]
+  ],
+  "single_predictor_max_auroc": 0.728,
+  "flagged_above_0.85": [],
+  "perm_null_logreg_auroc": {
+   "mean": 0.4917,
+   "min": 0.3034,
+   "max": 0.6531,
+   "draws": 100
+  },
+  "real_logreg_auroc_numpy": 0.823,
+  "perm_null_federated": {
+   "fedavg": {
+    "mean": 0.4914,
+    "min": 0.4402,
+    "max": 0.5448,
+    "draws": 5
+   },
+   "hiperc": {
+    "mean": 0.4938,
+    "min": 0.475,
+    "max": 0.5123,
+    "draws": 5
+   }
+  },
+  "seconds": 40
+ },
+ "T3": {
+  "n_train": 177586,
+  "n_val": 38047,
+  "n_test": 38047,
+  "n_features": 21,
+  "overlap_train_val_test": [
+   0,
+   0,
+   0
+  ],
+  "duplicate_indices_within_split": 0,
+  "continuous_columns": 7,
+  "train_mean_abs_max_continuous": 4.3992770315526286e-08,
+  "test_mean_abs_max_continuous": 0.009280834347009659,
+  "single_predictor_top3": [
+   [
+    "Age",
+    0.696
+   ],
+   [
+    "GenHlth",
+    0.668
+   ],
+   [
+    "HighChol",
+    0.65
+   ]
+  ],
+  "single_predictor_max_auroc": 0.696,
+  "flagged_above_0.85": [],
+  "perm_null_logreg_auroc": {
+   "mean": 0.5071,
+   "min": 0.3795,
+   "max": 0.6262,
+   "draws": 100
+  },
+  "real_logreg_auroc_numpy": 0.7967,
+  "perm_null_federated": {
+   "fedavg": {
+    "mean": 0.5125,
+    "min": 0.4557,
+    "max": 0.566,
+    "draws": 5
+   },
+   "hiperc": {
+    "mean": 0.5216,
+    "min": 0.4855,
+    "max": 0.5412,
+    "draws": 5
+   }
+  },
+  "seconds": 39
+ },
+ "T4": {
+  "n_train": 21996,
+  "n_val": 7335,
+  "n_test": 7335,
+  "n_features": 18,
+  "overlap_train_val_test": [
+   0,
+   0,
+   0
+  ],
+  "duplicate_indices_within_split": 0,
+  "continuous_columns": 8,
+  "train_mean_abs_max_continuous": 2.774829699347947e-09,
+  "test_mean_abs_max_continuous": 0.021151799708604813,
+  "single_predictor_top3": [
+   [
+    "age",
+    0.74
+   ],
+   [
+    "waist",
+    0.696
+   ],
+   [
+    "sbp",
+    0.664
+   ]
+  ],
+  "single_predictor_max_auroc": 0.74,
+  "flagged_above_0.85": [],
+  "perm_null_logreg_auroc": {
+   "mean": 0.4934,
+   "min": 0.2782,
+   "max": 0.6588,
+   "draws": 100
+  },
+  "real_logreg_auroc_numpy": 0.8259,
+  "perm_null_federated": {
+   "fedavg": {
+    "mean": 0.5388,
+    "min": 0.511,
+    "max": 0.5608,
+    "draws": 5
+   },
+   "hiperc": {
+    "mean": 0.5407,
+    "min": 0.5143,
+    "max": 0.5681,
+    "draws": 5
+   }
+  },
+  "seconds": 27
+ },
+ "T5": {
+  "n_train": 18495,
+  "n_val": 6166,
+  "n_test": 6166,
+  "n_features": 133,
+  "overlap_train_val_test": [
+   0,
+   0,
+   0
+  ],
+  "duplicate_indices_within_split": 0,
+  "patient_ids_unique": true,
+  "continuous_columns": 104,
+  "train_mean_abs_max_continuous": 0.020181087777018547,
+  "test_mean_abs_max_continuous": 0.0336911715567112,
+  "single_predictor_top3": [
+   [
+    "obs_FiO2",
+    0.641
+   ],
+   [
+    "obs_Lactate",
+    0.632
+   ],
+   [
+    "FiO2_max",
+    0.622
+   ]
+  ],
+  "single_predictor_max_auroc": 0.641,
+  "flagged_above_0.85": [],
+  "perm_null_logreg_auroc": {
+   "mean": 0.4875,
+   "min": 0.391,
+   "max": 0.562,
+   "draws": 100
+  },
+  "real_logreg_auroc_numpy": 0.7247,
+  "perm_null_federated": {
+   "fedavg": {
+    "mean": 0.4598,
+    "min": 0.4466,
+    "max": 0.4716,
+    "draws": 5
+   },
+   "hiperc": {
+    "mean": 0.4677,
+    "min": 0.4545,
+    "max": 0.4937,
+    "draws": 5
+   }
+  },
+  "seconds": 22
+ },
+ "T6": {
+  "n_train": 185573,
+  "n_val": 45967,
+  "n_test": 104004,
+  "n_features": 13,
+  "overlap_train_val_test": [
+   0,
+   0,
+   0
+  ],
+  "duplicate_indices_within_split": 0,
+  "latest_train_admission": "2021-03-31",
+  "earliest_val_admission": "2021-04-01",
+  "latest_val_admission": "2021-06-30",
+  "earliest_test_admission": "2021-07-01",
+  "forward_in_time_order_holds": true,
+  "continuous_columns": 1,
+  "train_mean_abs_max_continuous": 0.0,
+  "test_mean_abs_max_continuous": 0.24538040161132812,
+  "single_predictor_top3": [
+   [
+    "age",
+    0.846
+   ],
+   [
+    "hipertension",
+    0.662
+   ],
+   [
+    "diabetes",
+    0.646
+   ]
+  ],
+  "single_predictor_max_auroc": 0.846,
+  "flagged_above_0.85": [],
+  "perm_null_logreg_auroc": {
+   "mean": 0.4798,
+   "min": 0.221,
+   "max": 0.7945,
+   "draws": 100
+  },
+  "real_logreg_auroc_numpy": 0.8707,
+  "perm_null_federated": {
+   "fedavg": {
+    "mean": 0.4944,
+    "min": 0.4386,
+    "max": 0.5432,
+    "draws": 5
+   },
+   "hiperc": {
+    "mean": 0.4668,
+    "min": 0.4386,
+    "max": 0.4965,
+    "draws": 5
+   }
+  },
+  "seconds": 43
+ }
+}

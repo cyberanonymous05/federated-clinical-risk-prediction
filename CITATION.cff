@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Federated clinical risk prediction: code for HiPerC-FL and reference methods"
+type: software
+version: "1.0.0"
+date-released: "2026-11-12"
+repository-code: "https://github.com/cyberanonymous05/federated-clinical-risk-prediction"
+authors:
+  - family-names: "Sethupathy"
+    given-names: "Dhanisha"
+    affiliation: "School of Computer Science and Engineering, Vellore Institute of Technology, Chennai, India"
+  - family-names: "M."
+    given-names: "Sambath"
+    affiliation: "School of Computer Science and Engineering, Vellore Institute of Technology, Chennai, India"
+  - family-names: "Prakash"
+    given-names: "Adesh Kanna"
+    affiliation: "School of Computer Science and Engineering, Vellore Institute of Technology, Chennai, India"
+  - family-names: "Subramanian"
+    given-names: "Ananyaa"
+    affiliation: "School of Computer Science and Engineering, Vellore Institute of Technology, Chennai, India"
+license: MIT
+keywords:
+  - federated learning
+  - clinical prediction models
+  - calibration
+  - population drift
+  - sepsis
+  - privacy

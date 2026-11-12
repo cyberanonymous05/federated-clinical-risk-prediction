@@ -1,0 +1,76 @@
+{
+ "T1": {
+  "hospitals": 4,
+  "D1_prevalence_sd_pp": 23.03,
+  "D2_hospital_identifiability": 0.966,
+  "D3_local_minus_pooled": 0.0127,
+  "G1_personal_models": 0.0206,
+  "G2_best_personalised": 0.0081
+ },
+ "T2": {
+  "hospitals": 5,
+  "D1_prevalence_sd_pp": 6.19,
+  "D2_hospital_identifiability": 0.827,
+  "D3_local_minus_pooled": 0.0007,
+  "G1_personal_models": -0.0001,
+  "G2_best_personalised": -0.0003
+ },
+ "T3": {
+  "hospitals": 5,
+  "D1_prevalence_sd_pp": 8.86,
+  "D2_hospital_identifiability": 0.827,
+  "D3_local_minus_pooled": 0.0011,
+  "G1_personal_models": -0.0001,
+  "G2_best_personalised": -0.0005
+ },
+ "T4": {
+  "hospitals": 7,
+  "D1_prevalence_sd_pp": 2.38,
+  "D2_hospital_identifiability": 0.596,
+  "D3_local_minus_pooled": -0.0012,
+  "G1_personal_models": -0.0008,
+  "G2_best_personalised": -0.0021
+ },
+ "T5": {
+  "hospitals": 2,
+  "D1_prevalence_sd_pp": 0.93,
+  "D2_hospital_identifiability": 0.999,
+  "D3_local_minus_pooled": -0.0006,
+  "G1_personal_models": 0.011,
+  "G2_best_personalised": 0.0109
+ },
+ "T6": {
+  "hospitals": 5,
+  "D1_prevalence_sd_pp": 4.32,
+  "D2_hospital_identifiability": 0.579,
+  "D3_local_minus_pooled": 0.0009,
+  "G1_personal_models": 0.0023,
+  "G2_best_personalised": 0.0026
+ },
+ "spearman": {
+  "D1_prevalence_sd_pp vs G1_personal_models": {
+   "rho": 0.23,
+   "p": 0.658
+  },
+  "D1_prevalence_sd_pp vs G2_best_personalised": {
+   "rho": -0.09,
+   "p": 0.872
+  },
+  "D2_hospital_identifiability vs G1_personal_models": {
+   "rho": 0.59,
+   "p": 0.219
+  },
+  "D2_hospital_identifiability vs G2_best_personalised": {
+   "rho": 0.64,
+   "p": 0.173
+  },
+  "D3_local_minus_pooled vs G1_personal_models": {
+   "rho": 0.55,
+   "p": 0.257
+  },
+  "D3_local_minus_pooled vs G2_best_personalised": {
+   "rho": 0.26,
+   "p": 0.623
+  }
+ }
+}

@@ -1,0 +1,17 @@
+spec,policy,ece,brier,cal_gap,auroc
+centralized,both,0.0149,0.0303,0.0136,0.9011
+centralized,frozen,0.0558,0.0401,0.0548,0.9011
+centralized,intercept,0.017,0.0305,0.0139,0.9011
+centralized,triggered,0.0204,0.0312,0.0191,0.9011
+fedavg,both,0.015,0.0304,0.0138,0.9
+fedavg,frozen,0.0523,0.0396,0.0509,0.9
+fedavg,intercept,0.0176,0.0307,0.0141,0.9
+fedavg,triggered,0.0208,0.0313,0.0197,0.9
+hiperc,both,0.0149,0.0302,0.0141,0.8966
+hiperc,frozen,0.049,0.0386,0.0474,0.8966
+hiperc,intercept,0.0167,0.0304,0.0139,0.8966
+hiperc,triggered,0.0187,0.0308,0.0179,0.8966
+logreg,both,0.0175,0.0307,0.0146,0.8964
+logreg,frozen,0.0559,0.0399,0.0559,0.8964
+logreg,intercept,0.0183,0.0309,0.0147,0.8964
+logreg,triggered,0.0234,0.0316,0.0205,0.8964

@@ -1,0 +1,61 @@
+{
+ "T1": {
+  "auroc_rank": 0.8819,
+  "auroc_sklearn": 0.8819,
+  "main_run_logreg_seed0": 0.8819,
+  "abs_diff": 0.0,
+  "C": 10.0,
+  "saved_predictions_max_abs_diff_rank_vs_table": 0.0
+ },
+ "T2": {
+  "auroc_rank": 0.823,
+  "auroc_sklearn": 0.823,
+  "main_run_logreg_seed0": 0.823,
+  "abs_diff": 0.0,
+  "C": 10.0,
+  "saved_predictions_max_abs_diff_rank_vs_table": 0.0
+ },
+ "T3": {
+  "auroc_rank": 0.7967,
+  "auroc_sklearn": 0.7967,
+  "main_run_logreg_seed0": 0.7967,
+  "abs_diff": 0.0,
+  "C": 0.1,
+  "saved_predictions_max_abs_diff_rank_vs_table": 0.0
+ },
+ "T4": {
+  "auroc_rank": 0.826,
+  "auroc_sklearn": 0.826,
+  "main_run_logreg_seed0": 0.826,
+  "abs_diff": 0.0,
+  "C": 0.1,
+  "saved_predictions_max_abs_diff_rank_vs_table": 0.0
+ },
+ "T5": {
+  "auroc_rank": 0.7271,
+  "auroc_sklearn": 0.7271,
+  "main_run_logreg_seed0": 0.7271,
+  "abs_diff": 0.0,
+  "C": 0.1,
+  "saved_predictions_max_abs_diff_rank_vs_table": 0.0
+ },
+ "T6": {
+  "auroc_rank": 0.8707,
+  "auroc_sklearn": 0.8707,
+  "main_run_logreg_seed0": 0.8707,
+  "abs_diff": 0.0,
+  "C": 10.0,
+  "saved_predictions_max_abs_diff_rank_vs_table": 0.0
+ },
+ "T6_from_processed_table": {
+  "clients_rows": 335544,
+  "n_test": 104004,
+  "deaths_test": 3863,
+  "auroc_rank": 0.8707,
+  "main_run_logreg_seed0": 0.8707,
+  "abs_diff": 0.0,
+  "age_sex_only": 0.851,
+  "C": 10.0,
+  "max_abs_standardised_age_train_mean": 0.0
+ }
+}

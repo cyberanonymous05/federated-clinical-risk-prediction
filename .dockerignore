@@ -1,0 +1,11 @@
+results
+results_smoke
+build
+figures
+data
+logs
+render
+*.zip
+*.docx
+*.pdf
+refs

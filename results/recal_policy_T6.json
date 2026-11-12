@@ -1,0 +1,100 @@
+{
+ "summary": {
+  "centralized|both": {
+   "ece": 0.0149,
+   "brier": 0.0303,
+   "cal_gap": 0.0136,
+   "auroc": 0.9011
+  },
+  "centralized|frozen": {
+   "ece": 0.0558,
+   "brier": 0.0401,
+   "cal_gap": 0.0548,
+   "auroc": 0.9011
+  },
+  "centralized|intercept": {
+   "ece": 0.017,
+   "brier": 0.0305,
+   "cal_gap": 0.0139,
+   "auroc": 0.9011
+  },
+  "centralized|triggered": {
+   "ece": 0.0204,
+   "brier": 0.0312,
+   "cal_gap": 0.0191,
+   "auroc": 0.9011
+  },
+  "fedavg|both": {
+   "ece": 0.015,
+   "brier": 0.0304,
+   "cal_gap": 0.0138,
+   "auroc": 0.9
+  },
+  "fedavg|frozen": {
+   "ece": 0.0523,
+   "brier": 0.0396,
+   "cal_gap": 0.0509,
+   "auroc": 0.9
+  },
+  "fedavg|intercept": {
+   "ece": 0.0176,
+   "brier": 0.0307,
+   "cal_gap": 0.0141,
+   "auroc": 0.9
+  },
+  "fedavg|triggered": {
+   "ece": 0.0208,
+   "brier": 0.0313,
+   "cal_gap": 0.0197,
+   "auroc": 0.9
+  },
+  "hiperc|both": {
+   "ece": 0.0149,
+   "brier": 0.0302,
+   "cal_gap": 0.0141,
+   "auroc": 0.8966
+  },
+  "hiperc|frozen": {
+   "ece": 0.049,
+   "brier": 0.0386,
+   "cal_gap": 0.0474,
+   "auroc": 0.8966
+  },
+  "hiperc|intercept": {
+   "ece": 0.0167,
+   "brier": 0.0304,
+   "cal_gap": 0.0139,
+   "auroc": 0.8966
+  },
+  "hiperc|triggered": {
+   "ece": 0.0187,
+   "brier": 0.0308,
+   "cal_gap": 0.0179,
+   "auroc": 0.8966
+  },
+  "logreg|both": {
+   "ece": 0.0175,
+   "brier": 0.0307,
+   "cal_gap": 0.0146,
+   "auroc": 0.8964
+  },
+  "logreg|frozen": {
+   "ece": 0.0559,
+   "brier": 0.0399,
+   "cal_gap": 0.0559,
+   "auroc": 0.8964
+  },
+  "logreg|intercept": {
+   "ece": 0.0183,
+   "brier": 0.0309,
+   "cal_gap": 0.0147,
+   "auroc": 0.8964
+  },
+  "logreg|triggered": {
+   "ece": 0.0234,
+   "brier": 0.0316,
+   "cal_gap": 0.0205,
+   "auroc": 0.8964
+  }
+ }
+}

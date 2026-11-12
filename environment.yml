@@ -1,0 +1,15 @@
+name: hiperc-fl
+channels: [conda-forge]
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - numpy==2.3.5
+      - pandas==2.3.3
+      - scipy
+      - scikit-learn==1.7.2
+      - statsmodels==0.14.5
+      - torch==2.14.0
+      - opacus==1.6.0
+      - matplotlib==3.10.6
+      - Pillow
