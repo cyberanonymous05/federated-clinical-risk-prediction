@@ -1,0 +1,10 @@
+{
+ "newton_vs_pooled_max_abs_param_diff": 4.440892098500626e-16,
+ "newton_rounds": 4,
+ "protocol_vs_vectorised_max_abs_prob_diff": 6.106226635438361e-16,
+ "tau_h": 0.09267178281664211,
+ "tau_c": 0.13650707587364605,
+ "uplink_bytes_per_client_per_update": 208,
+ "clients": 132,
+ "hospitals": 5
+}

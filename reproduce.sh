@@ -42,5 +42,5 @@ python leakage_audit.py; python -I audit_independent.py; python rolling_mx.py
 # pooled gradient-boosted trees (three processes: torch dump, scikit-learn fit, torch statistics) and heterogeneity diagnostics
 python gbm_exp.py dump; python gbm_exp.py fit; python gbm_exp.py dumpx; python gbm_exp.py fitx; python gbm_exp.py stats; python heterogeneity_rule.py
 # federated tree ensemble, recalibration policies in the T6 replay, and the one-command check of headline numbers
-python fedgbm.py equivalence; python fedgbm.py run; python fedgbm.py stats; python recal_policy_mx.py; python -I check_headlines.py
+python fedgbm.py equivalence; python fedgbm.py run; python fedgbm.py stats; python recal_policy_mx.py; python hical.py equiv; python hical.py t6; python hical.py static; python blend.py make; python blend.py stats; python -I check_headlines.py
 echo "Done. Results are in results/."

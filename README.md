@@ -18,7 +18,7 @@ The public data are not redistributed here; scripts download them from their sou
 Check each data source's terms before use.
 
 ## Layout
-- `code/` all Python code. `fl.py` algorithms; `data.py` task builders; `settings.py` rounds, seeds and tuning grids; `tune.py` and `run_main.py` tuning and main runs; `metrics.py` and `stats_patient.py` metrics and patient-level inference (DeLong, Holm); `loho*.py`, `nhanes_*.py`, `rolling_mx.py` held-out and forward-in-time validation; `drift.py` drift streams; `dp_exp.py` privacy; `gbm_exp.py` and `fedgbm.py` boosted trees; `leakage_audit.py`, `audit_independent.py` and `validity_checks.py` audits and implementation tests; `check_headlines.py` one-command check of headline results.
+- `code/` all Python code. `fl.py` algorithms; `data.py` task builders; `settings.py` rounds, seeds and tuning grids; `tune.py` and `run_main.py` tuning and main runs; `metrics.py` and `stats_patient.py` metrics and patient-level inference (DeLong, Holm); `loho*.py`, `nhanes_*.py`, `rolling_mx.py` held-out and forward-in-time validation; `drift.py` drift streams; `dp_exp.py` privacy; `gbm_exp.py` and `fedgbm.py` boosted trees; `hical.py` HiCal federated recalibration; `blend.py` blending of model classes; `leakage_audit.py`, `audit_independent.py` and `validity_checks.py` audits and implementation tests; `check_headlines.py` one-command check of headline results.
 - `data/` SHA-256 checksums of the downloaded files.
 - `results/` tuned configurations, per-run results and summary tables (saved model predictions are not included because of their size).
 - `reproduce.sh`, `Dockerfile`, `requirements.txt`, `environment.yml` reproduction.
